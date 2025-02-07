@@ -13,6 +13,10 @@
     margin-top: 150px;
 }
 
+.simpleParallax{
+    height: 50%;
+}
+
 .overlaid-img{
     z-index: 10;
     width: 60%;
@@ -28,6 +32,7 @@
 
 
 .full-width-img-olive{
+    margin-top: 20vh;
     width: 70%;
     margin-left: 15%;
 
@@ -124,6 +129,13 @@ h4{
     text-decoration: none;
 }
 
+.callout-2{
+    font-size: 20px;
+    width: 80%;
+    margin-left: 5%;
+    line-height: 1.4;
+}
+
 a:visited {
     color: inherit;
   }
@@ -169,6 +181,7 @@ body{
     margin-top: -38vh;
     margin-bottom: 300px; 
     width: 30%; 
+    position: relative;
 }
 
 .caption-black{
@@ -243,15 +256,6 @@ body{
     padding-bottom: 125px;
 }
 
-
-#left-half-andy{
-    width: 30%;
-    padding-left: 10px;
-}
-
-#right-half-andy{
-    width: 70%;
-}
 
 .intro-text{
     width: 70%;
@@ -710,6 +714,16 @@ margin-bottom: 100px;
     
 }
 
+@media screen and (max-width: 1024px) {
+    
+    .video-wrapper iframe{
+        margin-top: -25vh;
+        margin-bottom: 10rem !important;
+    }
+    
+}
+
+
 @media screen and (min-width: 1256px) {
     
     .grid.products {
@@ -738,6 +752,7 @@ margin-bottom: 100px;
         margin-left: 0px;
         margin-top: -270px;
         margin-bottom: 300px;  
+        width: 70%;
     }
 
     .callout{
@@ -747,6 +762,13 @@ margin-bottom: 100px;
         margin-top: 150px;
         margin-bottom: 100px;
     }
+
+    .callout-2{
+        font-size: 20px !important; 
+        width: 70%;
+        margin-left: 5%;
+    }
+
 
     .carousel-img-caption{
         font-size: 11px;
@@ -788,117 +810,31 @@ margin-bottom: 100px;
           }
 
     .callout{
-    margin-top: 100px;
+    margin-top: 75px;
+    
     }
+
+    #right-half .copy-righthalf{
+        padding-bottom: 0px;
+    }
+
+    .full-width-img{
+        margin-top: 0;
+    }
+
+.origins-copyright{
+    margin-bottom: 75px !important;
 }
 
-@media screen and (max-width: 425px) {
-.callout{
-font-size: 16px !important;
-width: 80%;
-margin-left: 10%;
-line-height: 1.5;
-margin-top: 50px;
-margin-bottom: 50px;
+.video-wrapper iframe{
+    margin-top: -15vh;
+    margin-bottom: 200px;
 }
 
-.full-width-img{
-    height: 60vh;
-    width: auto;
-    margin-top: 50px;
-    object-fit: cover;
-    object-position: center !important;
+    
 }
 
-.caption{
-    font-size: 10px;
-}
 
-.caption-black{
-    font-size: 10px;
-}
-
-.carousel-img-caption{
-    font-size: 10px !important;
-}
-
-.video-caption{
-    font-size: 10px;
-}
-
-.bodycopy-full-width-olive{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.bodycopy-full-width-olive p{
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-    line-height: 1.8;
-    width: 80%;
-    margin-left: 10%;
-}
-
-.black{
-    font-size: 12px;
-    width: 70%;
-    line-height: 1.5;
-}
-
-.bodycopy-full-width p{
-    color: #000000;
-    font-size: 12px;
-    line-height: 1.8;
-    width: 80%;
-    margin-left: 10%;
-}
-
-.ilse-bio{
-    font-size: 12px;
-}
-
-#collab-header{
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.bodycopy-full-width{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#halfandhalf{
-    display: block;
-    margin-top: 50px;
-}
-
-#left-half{
-    width: 100%;
-}
-
-#right-half{
-    width: 100%;
-}
-
-#toc{
-    display: none;
-}
-
-.slick-prev{
-    height: 15px;
-    margin-top: -25px;
-    left: -20vw !important;
-    z-index: 100;
-}
-
-.slick-next{
-    height: 15px;
-    margin-top: -25px;
-    right: -10rem !important;
-    z-index: 100;
-}
-
-}
  
 @media screen and (max-width: 768px) {
 
@@ -944,7 +880,7 @@ margin-bottom: 50px;
         font-size: 12px;
         margin-top: 10px;
         padding-left: 18px;
-        width: 35vw;
+
     }
 
         .slick-prev{
@@ -967,5 +903,207 @@ margin-bottom: 50px;
             width: 80%;
             margin-left: 10%;
         }
+
+        .video-wrapper iframe{
+            margin-top: -25vh;
+            margin-bottom: -6rem !important;
+        }
+
+        .video-caption{
+            margin-top: -4rem !important;
+            margin-bottom: 300px; 
+            width: 70%; 
+            position: relative;
+            
+        }
+
+        .video-caption p{
+            font-size: 10px;
+        }
+        
+
+}
+
+@media screen and (max-width: 425px) {
+    .callout{
+    font-size: 16px !important;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    
+    .callout-2{
+        font-size: 16px !important;
+        width: 80%;
+        margin-left: 10% !important;
+        line-height: 1.5;
+        margin-top: 50px;
+        }
+    
+    .copy-righthalf{
+        margin-left: 10% !important;
+        margin-bottom: 50px;
+    }
+        
+    
+    .overlaid-img{
+        z-index: 10;
+        width: 70%;
+        position: relative;
+        margin-top: -120%;
+        margin-left: 14%;
+    }
+    
+    .full-width-img{
+        height: 60vh;
+        width: auto;
+        margin-top: 50px;
+        object-fit: cover;
+        object-position: center !important;
+    }
+    
+    .origins-copyright{
+       margin-top: -75px;
+       margin-bottom: 0;
+    }
+    
+    
+    .caption{
+        font-size: 10px;
+    }
+    
+    .video-caption p{
+        font-size: 10px;
+    }
+    
+    
+    .caption-black{
+        font-size: 10px;
+    }
+    
+    .carousel-img-caption{
+        font-size: 10px !important;
+    }
+    
+    .video-caption{
+        width: 70%;
+        margin-top: -200vh !important;
+    }
+    
+    .video-wrapper iframe{
+        margin-top: 30vh !important;
+        margin-bottom: -10rem !important;
+    }
+    
+    .designstudio-grid{
+        margin-top: 50px !important;
+    }
+    
+    .bodycopy-full-width-olive{
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .bodycopy-full-width-olive p{
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        line-height: 1.8;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .black{
+        font-size: 12px;
+        width: 70%;
+        line-height: 1.5;
+    }
+    
+    .bodycopy-full-width p{
+        color: #000000;
+        font-size: 12px;
+        line-height: 1.8;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .ilse-bio{
+        font-size: 12px;
+    }
+    
+    #collab-header{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    
+    .bodycopy-full-width{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #halfandhalf{
+        display: block;
+        margin-top: 50px;
+    }
+    
+    #left-half{
+        width: 100%;
+    }
+    
+    #right-half{
+        width: 100%;
+    }
+    
+    
+    
+    #left-half{
+        width: 100%;
+    }
+    
+    #right-half-no-crop{
+        width: 100%;
+    }
+    
+    #left-half-no-crop{
+        width: 100%;
+    }
+    
+    
+    #toc{
+        display: none;
+    }
+    
+    .slick-prev{
+        height: 15px;
+        margin-top: -25px;
+        left: -20vw !important;
+        z-index: 100;
+    }
+    
+    .slick-next{
+        height: 15px;
+        margin-top: -25px;
+        right: -10rem !important;
+        z-index: 100;
+    }
+    
+    
+    }
+
+@media screen and (min-width: 2560px) {
+    .video-wrapper iframe{
+        margin-top: -28vh;
+        margin-bottom: 12vh;
+    }
+
+    .video-caption{
+        margin-top: -37vh;
+        margin-bottom: 300px; 
+        width: 70%; 
+        position: relative;
+        font-size: 10px;
+    }
 
 }
