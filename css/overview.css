@@ -11,18 +11,21 @@
     margin-left: 0%;
     margin-bottom: 0px;
     margin-top: 150px;
+    object-fit: cover;
 }
 
 .simpleParallax{
     height: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .overlaid-img{
     z-index: 10;
-    width: 60%;
+    width: 65%;
     position: relative;
     margin-top: -75%;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 
 
@@ -236,6 +239,16 @@ body{
     line-height: 1.5;
     width: 50%;
     margin-left: 25%;
+}
+
+#left-half{
+    justify-content: center;
+    align-items: center;
+}
+
+#right-half{
+    justify-content: center;
+    align-items: center;
 }
 
 #left-half img{
@@ -717,8 +730,8 @@ margin-bottom: 100px;
 @media screen and (max-width: 1024px) {
     
     .video-wrapper iframe{
-        margin-top: -25vh;
-        margin-bottom: 10rem !important;
+        margin-top: -35vh !important;
+        margin-bottom: -13rem !important;
     }
     
 }
@@ -827,8 +840,8 @@ margin-bottom: 100px;
 }
 
 .video-wrapper iframe{
-    margin-top: -15vh;
-    margin-bottom: 200px;
+    margin-top: -35vh;
+    margin-bottom: -12rem;
 }
 
     
@@ -952,7 +965,7 @@ margin-bottom: 100px;
         z-index: 10;
         width: 70%;
         position: relative;
-        margin-top: -120%;
+        margin-top: -80vh;
         margin-left: 14%;
     }
     
@@ -986,17 +999,7 @@ margin-bottom: 100px;
     .carousel-img-caption{
         font-size: 10px !important;
     }
-    
-    .video-caption{
-        width: 70%;
-        margin-top: -200vh !important;
-    }
-    
-    .video-wrapper iframe{
-        margin-top: 30vh !important;
-        margin-bottom: -10rem !important;
-    }
-    
+
     .designstudio-grid{
         margin-top: 50px !important;
     }
@@ -1064,6 +1067,7 @@ margin-bottom: 100px;
     
     #right-half-no-crop{
         width: 100%;
+        margin-top: 50px;
     }
     
     #left-half-no-crop{
@@ -1087,6 +1091,19 @@ margin-bottom: 100px;
         margin-top: -25px;
         right: -10rem !important;
         z-index: 100;
+    }
+
+    .video-wrapper iframe{
+        margin-top: -40vh;
+        margin-bottom: -34rem !important;
+    }
+
+    .video-caption{
+        margin-top: -4rem !important;
+        margin-bottom: 300px; 
+        width: 70%; 
+        position: relative;
+        
     }
     
     
