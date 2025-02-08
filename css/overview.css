@@ -731,7 +731,7 @@ margin-bottom: 100px;
     
     .video-wrapper iframe{
         margin-top: -35vh !important;
-        margin-bottom: -13rem !important;
+        margin-bottom: -14rem !important;
     }
     
 }
@@ -742,7 +742,6 @@ margin-bottom: 100px;
     .grid.products {
     	grid-template-columns: repeat(4, minmax(0, 1fr));
     }
-
     
 }
 
@@ -919,7 +918,7 @@ margin-bottom: 100px;
 
         .video-wrapper iframe{
             margin-top: -25vh;
-            margin-bottom: -6rem !important;
+            margin-bottom: -31rem !important;
         }
 
         .video-caption{
