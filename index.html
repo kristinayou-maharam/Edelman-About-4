@@ -295,7 +295,7 @@
                 </div>
                 </div>
 
-                <div id="one">
+                <div id="one" class="page-section">
                 <img class="full-width-img" src="./images/new/EDMN_Ballon_Edelman_Header.jpg" style="margin-top: 100px;">
                 <img class="overlaid-img" src="./images/EDMN_Edelman.png">
              
@@ -323,7 +323,7 @@
                 
             <div id="flemingjoffe" class="page-section">
 
-                <div id="one" class="page-section">
+                <div class="page-section">
                     <img class="full-width-img-olive" src="./images/EDMN_Archive_ArthurTeddy_Portrait-01.png">
                     <img class="overlaid-img" src="./images/EDMN_History.png">
 
@@ -665,6 +665,9 @@ const observer = new IntersectionObserver(entries => {
 
 // Observe all sections
 document.querySelectorAll('.page-section').forEach(section => observer.observe(section));
+
+// Set default active state on page load
+document.getElementById('edelman').classList.add('live');
 
 
 document.addEventListener('DOMContentLoaded', function() {
